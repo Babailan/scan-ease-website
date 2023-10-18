@@ -22,39 +22,30 @@
         Young Achiever School of Caloocan.
       </span> The perfect starting point for your next business.
     </p>
-    <div class="flex gap-3 mt-5">
+    <div class="mt-5 flex gap-2">
       <button
-        class="bg-primary hover:bg-secondary text-white py-3 px-5 rounded-md flex gap-1"
+        class="bg-primary hover:bg-secondary text-white py-3 px-7 rounded-md flex gap-1 font-bold"
         on:click={test}
       >
-        <span> Download for windows </span>
-        <span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24"
-            viewBox="0 -960 960 960"
-            width="24"
-            class="fill-white"
-            ><path
-              d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"
-            /></svg
-          >
-        </span>
+        <span> Windows (x64) </span>
       </button>
-      <button class="bg-primary hover:bg-secondary rounded-md p-3">
-        <span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24"
-            viewBox="0 -960 960 960"
-            width="24"
-            class="fill-white"
-            ><path
-              d="M160-120q-33 0-56.5-23.5T80-200v-280h80v280h360v80H160Zm160-160q-33 0-56.5-23.5T240-360v-280h80v280h360v80H320Zm160-160q-33 0-56.5-23.5T400-520v-240q0-33 23.5-56.5T480-840h320q33 0 56.5 23.5T880-760v240q0 33-23.5 56.5T800-440H480Zm0-80h320v-160H480v160Z"
-            /></svg
-          >
-        </span>
+      <button
+        class="bg-primary hover:bg-secondary text-white py-3 px-7 rounded-md flex gap-1 font-bold"
+        on:click={test}
+      >
+        <span> Linux (x64) </span>
       </button>
+    </div>
+    <p class="mt-5 text-sm">
+      By downloading and using Postman, I agree to the <a
+        href="/"
+        class="text-sky">Privacy Policy</a
+      >
+      and <a href="/" class="text-sky">Terms</a>.
+    </p>
+    <div class="flex gap-2 mt-2 text-sm">
+      <a href="/" class="text-sky">Release Notes</a>
+      <p>·</p>
     </div>
   </div>
   <div class="max-w-lg lg:block hidden">
@@ -64,5 +55,14 @@
 
 <!-- Feature -->
 <div class="mt-20">
-  <h1 class="text-3xl font-black">Features</h1>
+  <h1 class="text-5xl font-black text-primary">Features</h1>
+  <div class="mt-5 max-w-5xl">
+    <h2 class="font-bold text-2xl">Data Visualization</h2>
+    <p>
+      Data visualization is a powerful feature that transforms raw data into
+      visual representations, enhancing clarity, revealing insights, aiding
+      communication, and enabling the rapid identification of outliers and
+      anomalies.
+    </p>
+  </div>
 </div>
