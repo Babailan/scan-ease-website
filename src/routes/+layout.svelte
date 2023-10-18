@@ -12,9 +12,7 @@
     </div>
     <div class="flex gap-5 font-medium">
       <!-- right col -->
-      <a href="/downloads" class="flex items-center gap-3 hover:underline"
-        >Download</a
-      >
+      <a href="/" class="flex items-center gap-3 hover:underline">Download</a>
 
       <a
         href="https://github.com/Babailan/scan-ease-website"
